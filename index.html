@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./dist/main.min.css" />
     <script
       src="https://kit.fontawesome.com/9348461e93.js"
       crossorigin="anonymous"
@@ -19,32 +20,41 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="header__logo">LOGO</div>
-        <nav class="main-nav">
-          <a href="#" class="main-nav__item">Home</a>
-          <a href="#" class="main-nav__item">Our art</a>
-          <a href="#" class="main-nav__item">Internet</a>
-          <a href="#" class="main-nav__item">Contact</a>
-          <a href="#" class="main-nav__item"
-            ><i class="fas fa-phone-alt"></i> 071 40 000 00</a
+      <div class="u-container c-header">
+        <div class="c-header__logo">
+          <img src="./src/img/outhands-logo-zwart.png" alt="Logo Outhands" />
+        </div>
+        <nav class="c-main-nav is-visible">
+          <a href="#" class="c-main-nav__item">Home</a>
+          <a href="#" class="c-main-nav__item">Our art</a>
+          <a href="#" class="c-main-nav__item">Internet</a>
+          <a href="#" class="c-main-nav__item">Contact</a>
+          <a href="#" class="c-main-nav__item c-main-nav__item--phone"
+            ><div class="u-icon">
+              <img src="./src/img/phone-outline.svg" alt="phone icon" />
+            </div>
+            071 40 000 00</a
           >
-          <div class="hamburger-menu">H</div>
         </nav>
+        <div class="c-hamburger-menu">
+          <span class="c-hamburger-menu__text">menu</span>
+          <div class="c-hamburger-menu__bars is-open"></div>
+        </div>
       </div>
     </header>
     <main>
       <section class="hero">
-        <div class="hero__image">
+        <!-- <div class="hero__image">
           <img
             src=""
             alt="person with black mask and black hoodie reading a burning paper"
           />
-        </div>
+        </div> -->
         <h1 class="hero__title">
           Art is the only power capable of destroying the internet
         </h1>
-        <p>
+        <p>test</p>
+        <!-- <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
           similique est quaerat fugiat eveniet delectus cumque tempore
           architecto. Voluptatum ad laboriosam illum quod. Assumenda quo
@@ -52,10 +62,10 @@
           Inventore, similique!
         </p>
         <button class="button button--main">Make some Art</button>
-        <button class="button">Destroy the internet</button>
+        <button class="button">Destroy the internet</button> -->
       </section>
       <!-- hero -->
-      <section class="blogs">
+      <!-- <section class="blogs">
         <h2 class="blogs__title">
           Art is not what you see, is what you make others see
         </h2>
@@ -86,9 +96,9 @@
             suscipit!
           </p>
         </article>
-      </section>
+      </section> -->
       <!-- blogs -->
-      <section class="inspiration">
+      <!-- <section class="inspiration">
         <article class="card quote">
           <blockquote>
             <p>
@@ -117,9 +127,9 @@
             <a href="#"> <i class="far fa-user"></i>Lets meet eachother. </a>
           </li>
         </ul>
-      </section>
+      </section> -->
       <!-- inspiration -->
-      <section class="information">
+      <!-- <section class="information">
         <article class="article">
           <h3 class="article__title">Lorem ipsum dolor sit amet.</h3>
           <p class="article__content">
@@ -142,10 +152,10 @@
             <li>Believe is and achieve it</li>
           </ul>
         </article>
-      </section>
+      </section> -->
     </main>
     <footer>
-      <nav class="footer-nav">
+      <!-- <nav class="footer-nav">
         <ul>
           <li>
             Contact us
@@ -183,7 +193,7 @@
             </ul>
           </li>
         </ul>
-      </nav>
+      </nav> -->
       <p>
         &copy; 2021 Outhands. This is a test design, development by
         <a href="https://www.henklangeveld.com/" target="_blank"
