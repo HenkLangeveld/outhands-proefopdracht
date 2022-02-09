@@ -10,8 +10,16 @@ header {
   justify-content: space-between;
   align-items: center;
 
+  @media (min-width: $breakpoint-1) {
+    height: 95px;
+  }
+
   &__logo {
     width: 103px;
+
+    @media (min-width: $breakpoint-1) {
+      width: 150px;
+    }
   }
 
   .is-visible {
@@ -31,10 +39,18 @@ header {
   padding: 2.5rem 1rem;
   transform: translateX(100%);
   transition: transform 0.3s;
+
   border-top: 1px solid lightgray;
 
   &__item {
+    font-size: 1.0625rem;
+    font-weight: 600;
     text-align: center;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $primary-color;
+    }
 
     &--phone {
       display: flex;
@@ -43,6 +59,17 @@ header {
       align-items: center;
       color: $accent-color;
     }
+  }
+
+  @media (min-width: $breakpoint-1) {
+    position: relative;
+    top: 0;
+    transform: translateX(0);
+    width: auto;
+    flex-direction: row;
+    gap: 1.3rem;
+    border: none;
+    padding: 0;
   }
 }
 
@@ -97,5 +124,9 @@ header {
       width: 78%;
       bottom: -5px;
     }
+  }
+
+  @media (min-width: $breakpoint-1) {
+    display: none;
   }
 }

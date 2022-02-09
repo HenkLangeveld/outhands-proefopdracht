@@ -24,12 +24,14 @@
         <div class="c-header__logo">
           <img src="./src/img/outhands-logo-zwart.png" alt="Logo Outhands" />
         </div>
-        <nav class="c-main-nav js-main-nav">
+        <nav class="c-main-nav js-main-nav" aria-label="main navigation">
           <a href="#" class="c-main-nav__item js-main-nav__item">Home</a>
           <a href="#" class="c-main-nav__item js-main-nav__item">Our art</a>
           <a href="#" class="c-main-nav__item js-main-nav__item">Internet</a>
           <a href="#" class="c-main-nav__item js-main-nav__item">Contact</a>
-          <a href="#" class="c-main-nav__item c-main-nav__item--phone"
+          <a
+            href="tel:071-4000000"
+            class="c-main-nav__item c-main-nav__item--phone"
             ><div class="u-icon">
               <img src="./src/img/phone-outline.svg" alt="phone icon" />
             </div>
@@ -50,10 +52,9 @@
             alt="person with black mask and black hoodie reading a burning paper"
           />
         </div> -->
-        <h1 class="hero__title">
+        <!-- <h1 class="hero__title">
           Art is the only power capable of destroying the internet
-        </h1>
-        <p>test</p>
+        </h1> -->
         <!-- <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
           similique est quaerat fugiat eveniet delectus cumque tempore
@@ -65,38 +66,44 @@
         <button class="button">Destroy the internet</button> -->
       </section>
       <!-- hero -->
-      <!-- <section class="blogs">
-        <h2 class="blogs__title">
+      <section class="c-cards">
+        <h2 class="section__title">
           Art is not what you see, is what you make others see
         </h2>
-        <article class="card blog">
-          <div class="blog__image"><img src="" alt="blue circle" /></div>
-          <h3 class="blog__title">The circle of life.</h3>
-          <p class="blog__content">
+        <article class="o-card">
+          <div class="o-card__image">
+            <img src="./src/img/circle.svg" alt="blue circle" />
+          </div>
+          <h3 class="o-card__title">The circle of life.</h3>
+          <p class="o-card__content">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
             voluptatibus eum animi. Dolorem inventore corrupti repellat
             suscipit!
           </p>
         </article>
-        <article class="card blog">
-          <div class="blog__image"><img src="" alt="yellow star" /></div>
-          <h3 class="blog__title">Shoot for the stars.</h3>
-          <p class="blog__content">
+        <article class="o-card">
+          <div class="o-card__image">
+            <img src="./src/img/star.svg" alt="yellow star" />
+          </div>
+          <h3 class="o-card__title">Shoot for the stars.</h3>
+          <p class="o-card__content">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
             voluptatibus eum animi. Dolorem inventore corrupti repellat
             suscipit!
           </p>
         </article>
-        <article class="card blog">
-          <div class="blog__image"><img src="" alt="purple square" /></div>
-          <h3 class="blog__title">Keep it simple</h3>
-          <p class="blog__content">
+        <article class="o-card">
+          <div class="o-card__image">
+            <img src="./src/img/block.svg" alt="purple square" />
+          </div>
+          <h3 class="o-card__title">Keep it simple</h3>
+          <p class="o-card__content">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
             voluptatibus eum animi. Dolorem inventore corrupti repellat
             suscipit!
           </p>
         </article>
-      </section> -->
+      </section>
       <!-- blogs -->
       <!-- <section class="inspiration">
         <article class="card quote">
@@ -155,52 +162,74 @@
       </section> -->
     </main>
     <footer>
-      <!-- <nav class="footer-nav">
-        <ul>
-          <li>
-            Contact us
-            <ul>
+      <div class="u-container c-footer">
+        <div class="c-footer__main-content">
+          <div>
+            <h2 class="c-footer__title">Contact us</h2>
+            <ul class="c-footer__list">
               <li>Rijnsburgerweg 88C</li>
               <li>2231 AG Rijnsburg</li>
-              <li>T.<a>071 40 000 00</a></li>
-              <li>E.<a>mark@outhands.nl</a></li>
+              <li>
+                T.<a href="tel:071-4000000" class="u-text-blue u-underline"
+                  >071 40 000 00</a
+                >
+              </li>
+              <li>
+                E.<a
+                  href="mailto:mark@outhands.nl"
+                  class="u-text-blue u-underline"
+                  >mark@outhands.nl</a
+                >
+              </li>
             </ul>
-          </li>
-          <li>
-            Outhands
-            <ul>
+          </div>
+
+          <nav class="footer-nav" aria-label="footer navigation">
+            <h2 class="c-footer__title">Outhands</h2>
+            <ul class="c-footer__list">
               <li><a href="#">Design</a></li>
               <li><a href="#">Development</a></li>
               <li><a href="#">Webshops</a></li>
               <li><a href="#">Internet marketing</a></li>
             </ul>
-          </li>
-          <li>
-            Team
-            <ul>
+          </nav>
+
+          <div>
+            <h2 class="c-footer__title">Team</h2>
+            <ul class="c-footer__list">
               <li>Mark van der Meij</li>
               <li>Marcus Meijvogel</li>
               <li>Mike Collet</li>
               <li>Erik Kraijenoord</li>
             </ul>
-          </li>
-          <li>
-            Social media
-            <ul>
+          </div>
+
+          <div>
+            <h2 class="c-footer__title">Social media</h2>
+            <ul class="c-footer__list">
               <li><a href="#">Facebook</a></li>
               <li><a href="#">Instagram</a></li>
               <li><a href="#">Twitter</a></li>
             </ul>
-          </li>
-        </ul>
-      </nav> -->
-      <p>
-        &copy; 2021 Outhands. This is a test design, development by
-        <a href="https://www.henklangeveld.com/" target="_blank"
-          >Henk Langeveld</a
-        >
-      </p>
-      <div class="footer__logo">Footer logo</div>
+          </div>
+        </div>
+        <!-- c-footer__main-content -->
+        <div class="c-footer__bottom">
+          <p class="c-footer__disclaimer">
+            &copy; 2021 Outhands. This is a test design, development by
+            <a
+              href="https://www.henklangeveld.com/"
+              target="_blank"
+              class="u-underline"
+              >Henk Langeveld</a
+            >
+          </p>
+          <div class="c-footer__logo">
+            <img src="./src/img/outhands-logo-web.png" alt="Logo Outhands" />
+          </div>
+        </div>
+      </div>
+      <!-- u-container -->
     </footer>
     <script src="./dist/main.js" type="module"></script>
   </body>

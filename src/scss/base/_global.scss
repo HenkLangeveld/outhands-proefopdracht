@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: $text-color;
 }
 
@@ -40,11 +40,6 @@ button {
   cursor: pointer;
 }
 
-.u-container {
-  padding-inline: 15px;
-}
-
-.u-icon {
-  display: inline-block;
-  width: 1rem;
+p {
+  line-height: 1.875;
 }
