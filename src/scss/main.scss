@@ -1,6 +1,15 @@
 @import "base/variables.scss";
 @import "base/global.scss";
 @import "base/utility.scss";
+@import "theme/main-item.scss";
+@import "objects/card.scss";
+@import "objects/page-link.scss";
+@import "objects/basic-blog.scss";
+@import "objects/basic-list.scss";
+@import "sections/section.scss";
+@import "sections/cards.scss";
+@import "sections/inspiration.scss";
+@import "sections/information.scss";
 @import "components/header.scss";
 @import "components/footer.scss";
 @import "components/hero.scss";

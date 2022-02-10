@@ -1,0 +1,46 @@
+.o-page-link__list {
+  @media (min-width: $breakpoint-1) {
+    grid-column: 2 / -1;
+  }
+}
+
+.o-page-link {
+  margin-bottom: 1rem;
+
+  &__icon {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+
+    &--blue {
+      fill: $text-color--blue;
+    }
+
+    &--red {
+      fill: $accent-color;
+    }
+
+    &--primary {
+      fill: $primary-color;
+    }
+  }
+}
+
+.o-link-description {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  &::after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-size: 0.7rem;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    opacity: 30%;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,8 @@
+.inspiration {
+  display: grid;
+  gap: 2rem;
+
+  @media (min-width: $breakpoint-1) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

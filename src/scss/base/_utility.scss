@@ -14,3 +14,11 @@
 .u-text-blue {
   color: $text-color--blue;
 }
+
+.u-mobile-line-break {
+  display: block;
+
+  @media (min-width: $breakpoint-1) {
+    display: inline;
+  }
+}

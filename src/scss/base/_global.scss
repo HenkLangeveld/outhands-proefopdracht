@@ -18,6 +18,10 @@ body {
   background-color: $primary-background;
 }
 
+main {
+  padding-block: 4rem;
+}
+
 footer {
   margin-top: auto;
 }
@@ -40,6 +44,7 @@ button {
   cursor: pointer;
 }
 
-p {
+p,
+li {
   line-height: 1.875;
 }

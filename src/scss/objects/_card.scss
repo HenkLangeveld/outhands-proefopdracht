@@ -1,0 +1,16 @@
+.o-card {
+  padding: 2rem;
+  align-items: center;
+
+  &__image {
+    width: 180px;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__content {
+    text-align: center;
+  }
+}

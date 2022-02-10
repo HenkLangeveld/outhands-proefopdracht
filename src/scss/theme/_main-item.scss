@@ -1,0 +1,29 @@
+.t-main-item {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px grey;
+
+  &__main-title {
+    font-size: 1.3125rem;
+    font-weight: 600;
+  }
+
+  &--quote {
+    font-size: 2.6875rem;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    p {
+      line-height: 1.2;
+    }
+  }
+
+  &--dark {
+    background-color: #232426;
+    color: white;
+  }
+}

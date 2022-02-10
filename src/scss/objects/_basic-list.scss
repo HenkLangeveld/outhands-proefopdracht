@@ -1,0 +1,7 @@
+.o-basic-list {
+  padding: 2rem;
+
+  &__list {
+    list-style: inside url("/src/img/star-primary.svg");
+  }
+}
